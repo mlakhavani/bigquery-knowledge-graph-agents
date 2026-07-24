@@ -1,6 +1,6 @@
-# DSG BigQuery Conversational Agents
+# BigQuery Knowledge Graph Agents
 
-A production-grade collection of **Google Cloud BigQuery Conversational Data Agents** designed for retail customer insights and store financial analytics. Built with BigQuery Agents Hub, Vertex AI, and Terraform.
+A production-grade collection of **Google Cloud BigQuery Conversational Data & Knowledge Graph Agents** designed for retail customer insights, store financial analytics, and graph analytics. Built with BigQuery Agents Hub, Vertex AI, Google Cloud Spanner Graph, and Terraform.
 
 ---
 
