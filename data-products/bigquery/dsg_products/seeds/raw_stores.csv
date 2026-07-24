@@ -1,0 +1,9 @@
+store_id,name,address,city,state,zip_code,phone_number
+ST-PA-001,DICK'S Sporting Goods - Robinson Center,100 Robinson Centre Dr,Pittsburgh,PA,15205,412-494-0711
+ST-PA-002,DICK'S Sporting Goods - Cranberry,20215 Route 19,Cranberry Twp,PA,16066,724-772-3550
+ST-TX-001,DICK'S Sporting Goods - Austin The Domain,3220 Amy Donovan Plaza,Austin,TX,78758,512-339-3838
+ST-TX-002,DICK'S Sporting Goods - Friendswood Baybrook Mall,18650 Gulf Fwy,Friendswood,TX,77546,281-286-9000
+ST-CA-001,DICK'S Sporting Goods - San Jose Almaden Plaza,5353 Almaden Expy,San Jose,CA,95118,408-978-6500
+ST-CA-002,DICK'S Sporting Goods - El Segundo,700 S Sepulveda Blvd,El Segundo,CA,90245,310-607-9300
+ST-NY-001,DICK'S Sporting Goods - Roosevelt Field Garden City,630 Old Country Rd,Garden City,NY,11530,516-745-9300
+ST-FL-001,DICK'S Sporting Goods - Orlando Mall at Millenia,4000 Millenia Blvd,Orlando,FL,32839,407-352-3300

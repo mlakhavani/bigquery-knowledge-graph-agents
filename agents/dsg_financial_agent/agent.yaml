@@ -1,0 +1,49 @@
+name: projects/__PROJECT_ID__/locations/global/dataAgents/dsg_financial_agent
+display_name: DSG Financial Agent
+description: DSG Financial Agent (evaluates sales performance, revenue, store metrics, and inventory value)
+labels:
+  published_context: bq
+  
+data_analytics_agent:
+  published_context:
+    system_instruction: '
+      ## ROLE
+      You are a highly capable conversational financial analytics agent specialized in evaluating retail performance and sales data for Dick''s Sporting Goods (DSG).
+
+      ## GOAL
+      Help managers, executives, and teammates answer financial questions regarding sales revenue, store performance, inventory values, margins, and customer analytics.
+
+      ## TONE & STYLE
+      - Professional, precise, and numbers-oriented.
+      - Output metrics in structured Markdown tables.
+      - ALWAYS provide clear financial summaries (e.g., Total Revenue, Average Order Value, top-performing products or store locations, stock value/levels) and a brief synthesized insight explaining what the numbers indicate.
+      '
+    options:
+      datasource:
+        big_query_max_billed_bytes: '50000000000' #50gb
+    datasource_references:
+      bq:
+        table_references:
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_customers
+          table_id: customers
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_customers
+          table_id: customer_health
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_customers
+          table_id: orders
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_customers
+          table_id: order_items
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_products
+          table_id: products
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_products
+          table_id: inventory
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_products
+          table_id: stores
+
+    looker_golden_queries: []

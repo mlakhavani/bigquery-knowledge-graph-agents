@@ -1,0 +1,91 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Detailed profiles of Dick's Sporting Goods VIP customers."
+    columns:
+      - name: customer_id
+        description: "Unique identifier for each customer."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Full name of the customer."
+      - name: email
+        description: "Customer email address."
+        tests:
+          - unique
+          - not_null
+      - name: phone_number
+        description: "Primary telephone number of the customer."
+      - name: address
+        description: "Street address of the customer."
+      - name: city
+        description: "City where the customer resides."
+      - name: state
+        description: "State abbreviation where the customer resides."
+      - name: zip_code
+        description: "ZIP code where the customer resides."
+      - name: date_joined
+        description: "Timestamp when the customer joined the VIP program."
+
+  - name: customer_health
+    description: "Customer health tracking records synced from Fitbit or Apple Health."
+    columns:
+      - name: customer_id
+        description: "Unique identifier for each customer. Relates to customers.customer_id."
+        tests:
+          - not_null
+      - name: sync_date
+        description: "The date of the health metrics sync."
+        tests:
+          - not_null
+      - name: device_type
+        description: "The type of device syncing (e.g. Fitbit, Apple Health)."
+      - name: steps_count
+        description: "Daily step count."
+      - name: calories_burned
+        description: "Daily estimate of calories burned."
+      - name: avg_heart_rate
+        description: "Average daily heart rate."
+      - name: active_minutes
+        description: "Minutes of active physical activity."
+      - name: sleep_hours
+        description: "Hours of sleep recorded."
+
+  - name: orders
+    description: "Sales orders placed by customers."
+    columns:
+      - name: order_id
+        description: "Unique identifier for each sales order."
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Customer who placed the order. Relates to customers.customer_id."
+        tests:
+          - not_null
+      - name: store_id
+        description: "Store location where the order was placed. Relates to stores.store_id."
+        tests:
+          - not_null
+      - name: order_date
+        description: "Timestamp when the order was placed."
+      - name: total_amount
+        description: "Total dollar amount of the order."
+
+  - name: order_items
+    description: "Items contained within each sales order."
+    columns:
+      - name: order_id
+        description: "Sales order ID. Relates to orders.order_id."
+        tests:
+          - not_null
+      - name: sku
+        description: "Stock Keeping Unit. Relates to products.sku."
+        tests:
+          - not_null
+      - name: quantity
+        description: "Quantity of the product ordered. Always 1 for shoes in this dataset."
+      - name: price
+        description: "The price of the item at the time of the order."

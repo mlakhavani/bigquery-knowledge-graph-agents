@@ -1,0 +1,9 @@
+catalogs:
+  - name: gcs_iceberg
+    active_write_integration: gcs_iceberg_integration
+    write_integrations:
+      - name: gcs_iceberg_integration
+        catalog_type: biglake_metastore
+        table_format: iceberg
+        file_format: parquet
+        external_volume: "gs://meera-demos-dsg-data"

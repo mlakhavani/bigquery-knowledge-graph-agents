@@ -1,0 +1,201 @@
+customer_id,name,email,phone_number,address,city,state,zip_code,date_joined
+CUST-001,Jennifer Davis,jennifer.davis.1@example.com,883-923-4398,7601 Hill Rd,San Jose,CA,95118,2021-07-10
+CUST-002,Ashley Roberts,ashley.roberts.2@example.com,884-826-7769,6738 Maple Ave,Garden City,NY,11530,2016-01-27
+CUST-003,Susan Moore,susan.moore.3@example.com,925-174-8835,5309 Oak St,Austin,TX,78758,2021-07-31
+CUST-004,Elizabeth Nguyen,elizabeth.nguyen.4@example.com,606-564-4124,7210 Elm St,San Jose,CA,95118,2016-09-16
+CUST-005,Linda Ramirez,linda.ramirez.5@example.com,477-204-9254,1121 Cedar Rd,Orlando,FL,32839,2018-04-16
+CUST-006,Paul White,paul.white.6@example.com,288-188-2081,9641 View Rd,Orlando,FL,32839,2021-06-19
+CUST-007,William Rivera,william.rivera.7@example.com,321-693-6141,294 Pine St,Garden City,NY,11530,2024-10-24
+CUST-008,Jessica Hill,jessica.hill.8@example.com,408-633-5594,7721 Lake St,El Segundo,CA,90245,2017-03-22
+CUST-009,Joshua Torres,joshua.torres.9@example.com,974-470-2967,7918 Lake St,Pittsburgh,PA,15205,2018-10-22
+CUST-010,Karen Garcia,karen.garcia.10@example.com,641-109-4123,6927 Maple Ave,Garden City,NY,11530,2026-05-04
+CUST-011,Barbara Lopez,barbara.lopez.11@example.com,432-600-9751,4095 Lake St,Austin,TX,78758,2019-07-25
+CUST-012,Steven Campbell,steven.campbell.12@example.com,743-888-5936,2444 Main St,San Jose,CA,95118,2020-04-14
+CUST-013,Joshua Scott,joshua.scott.13@example.com,459-911-9120,9400 Main St,El Segundo,CA,90245,2017-01-15
+CUST-014,Mark Wilson,mark.wilson.14@example.com,689-495-4999,8967 Pine St,Austin,TX,78758,2024-10-18
+CUST-015,Kimberly Jones,kimberly.jones.15@example.com,828-674-2749,7964 Cedar Rd,Cranberry Twp,PA,16066,2025-01-02
+CUST-016,Anthony Campbell,anthony.campbell.16@example.com,523-386-2106,2798 Main St,Garden City,NY,11530,2016-06-27
+CUST-017,Joseph Jackson,joseph.jackson.17@example.com,273-725-4602,2022 Pine St,Austin,TX,78758,2025-01-21
+CUST-018,Thomas Hill,thomas.hill.18@example.com,357-540-4451,3543 Main St,Pittsburgh,PA,15205,2018-03-08
+CUST-019,Ashley Lopez,ashley.lopez.19@example.com,663-286-7828,4189 Hill Rd,Pittsburgh,PA,15205,2026-05-21
+CUST-020,Michael Rodriguez,michael.rodriguez.20@example.com,395-953-8532,2638 Pine St,Garden City,NY,11530,2024-12-27
+CUST-021,Mary Jones,mary.jones.21@example.com,485-627-6069,8380 Washington St,Friendswood,TX,77546,2021-07-24
+CUST-022,James Torres,james.torres.22@example.com,827-842-1273,8648 Maple Ave,Orlando,FL,32839,2024-05-24
+CUST-023,Paul Nguyen,paul.nguyen.23@example.com,539-321-6970,4817 Maple Ave,Austin,TX,78758,2025-10-03
+CUST-024,Mary Johnson,mary.johnson.24@example.com,662-860-4485,7251 Washington St,El Segundo,CA,90245,2023-01-28
+CUST-025,Kenneth Baker,kenneth.baker.25@example.com,330-507-3490,6649 Hill Rd,Cranberry Twp,PA,16066,2026-04-16
+CUST-026,Andrew Baker,andrew.baker.26@example.com,998-970-6781,3223 Lake St,Pittsburgh,PA,15205,2024-09-16
+CUST-027,George Lopez,george.lopez.27@example.com,230-523-3369,8876 Oak St,Austin,TX,78758,2016-04-27
+CUST-028,Mark Rivera,mark.rivera.28@example.com,533-726-1888,4436 Pine St,Orlando,FL,32839,2024-01-11
+CUST-029,Daniel Clark,daniel.clark.29@example.com,274-127-7741,693 Elm St,San Jose,CA,95118,2017-08-21
+CUST-030,Timothy Hall,timothy.hall.30@example.com,425-615-4208,1344 Cedar Rd,Austin,TX,78758,2023-02-16
+CUST-031,Patricia Thompson,patricia.thompson.31@example.com,265-496-8033,1247 Oak St,Orlando,FL,32839,2023-10-15
+CUST-032,Amanda Rivera,amanda.rivera.32@example.com,885-675-9299,3529 Cedar Rd,Pittsburgh,PA,15205,2018-03-05
+CUST-033,Donald Young,donald.young.33@example.com,439-420-2343,8928 Washington St,Cranberry Twp,PA,16066,2024-10-19
+CUST-034,Carol Martin,carol.martin.34@example.com,940-760-8970,8473 Cedar Rd,Orlando,FL,32839,2025-08-06
+CUST-035,James Lewis,james.lewis.35@example.com,511-374-5500,8656 Washington St,El Segundo,CA,90245,2017-01-21
+CUST-036,Joshua Carter,joshua.carter.36@example.com,542-410-9708,8916 Pine St,Friendswood,TX,77546,2018-08-05
+CUST-037,Steven Mitchell,steven.mitchell.37@example.com,483-999-3637,961 Main St,Pittsburgh,PA,15205,2020-09-23
+CUST-038,Matthew Rivera,matthew.rivera.38@example.com,228-949-1673,9943 Pine St,San Jose,CA,95118,2024-11-12
+CUST-039,Mary Nelson,mary.nelson.39@example.com,665-796-5988,9117 Oak St,Garden City,NY,11530,2020-09-10
+CUST-040,Joshua Rodriguez,joshua.rodriguez.40@example.com,516-629-3385,3852 Cedar Rd,Austin,TX,78758,2018-05-05
+CUST-041,George Wilson,george.wilson.41@example.com,902-674-3668,6262 Oak St,Austin,TX,78758,2018-10-20
+CUST-042,Emily Green,emily.green.42@example.com,381-401-1165,6731 Washington St,El Segundo,CA,90245,2022-07-06
+CUST-043,Emily White,emily.white.43@example.com,723-105-1815,8482 Maple Ave,El Segundo,CA,90245,2020-06-05
+CUST-044,Susan Thomas,susan.thomas.44@example.com,971-248-2306,7082 Elm St,Friendswood,TX,77546,2020-06-22
+CUST-045,Susan Williams,susan.williams.45@example.com,327-613-6768,5365 Main St,Garden City,NY,11530,2017-08-30
+CUST-046,Dorothy Lewis,dorothy.lewis.46@example.com,663-964-6420,4974 Lake St,Orlando,FL,32839,2023-06-02
+CUST-047,Anthony Jones,anthony.jones.47@example.com,375-501-8202,7348 Washington St,Cranberry Twp,PA,16066,2019-08-02
+CUST-048,Carol Mitchell,carol.mitchell.48@example.com,786-981-9202,7793 Maple Ave,Cranberry Twp,PA,16066,2017-07-30
+CUST-049,Michael Clark,michael.clark.49@example.com,919-140-9530,3596 Washington St,Austin,TX,78758,2017-12-25
+CUST-050,Michael Moore,michael.moore.50@example.com,564-172-2712,8839 Oak St,Friendswood,TX,77546,2017-03-03
+CUST-051,Andrew Williams,andrew.williams.51@example.com,727-899-1284,6929 Hill Rd,Pittsburgh,PA,15205,2026-02-15
+CUST-052,Richard Garcia,richard.garcia.52@example.com,651-199-8574,186 Main St,Garden City,NY,11530,2019-01-25
+CUST-053,Timothy Martinez,timothy.martinez.53@example.com,262-531-1504,1279 Maple Ave,Orlando,FL,32839,2016-11-25
+CUST-054,Nancy Torres,nancy.torres.54@example.com,417-375-1488,7106 Oak St,San Jose,CA,95118,2021-05-02
+CUST-055,Susan Hernandez,susan.hernandez.55@example.com,843-461-5781,7492 Main St,Friendswood,TX,77546,2022-11-28
+CUST-056,Jessica Davis,jessica.davis.56@example.com,721-105-5882,1017 Pine St,El Segundo,CA,90245,2023-12-02
+CUST-057,Elizabeth Baker,elizabeth.baker.57@example.com,714-220-8162,8352 Washington St,El Segundo,CA,90245,2024-08-22
+CUST-058,Sandra King,sandra.king.58@example.com,860-966-8335,6263 Hill Rd,Austin,TX,78758,2021-08-16
+CUST-059,Nancy Perez,nancy.perez.59@example.com,288-527-6792,3253 View Rd,Cranberry Twp,PA,16066,2021-02-17
+CUST-060,William King,william.king.60@example.com,275-337-1719,6671 Hill Rd,Orlando,FL,32839,2024-04-23
+CUST-061,Dorothy Clark,dorothy.clark.61@example.com,418-610-2740,3293 Lake St,Pittsburgh,PA,15205,2024-11-12
+CUST-062,George Clark,george.clark.62@example.com,395-151-6183,3562 Elm St,Pittsburgh,PA,15205,2021-11-13
+CUST-063,Kimberly Gonzalez,kimberly.gonzalez.63@example.com,738-496-8375,4979 Elm St,San Jose,CA,95118,2018-12-19
+CUST-064,Emily Baker,emily.baker.64@example.com,490-514-5217,8720 Pine St,Friendswood,TX,77546,2025-09-19
+CUST-065,Paul Harris,paul.harris.65@example.com,605-259-7713,1893 Main St,Friendswood,TX,77546,2021-11-01
+CUST-066,Donald Flores,donald.flores.66@example.com,645-542-5563,6420 Maple Ave,Pittsburgh,PA,15205,2023-10-18
+CUST-067,Joseph King,joseph.king.67@example.com,665-303-3999,5532 Elm St,Garden City,NY,11530,2016-04-07
+CUST-068,Margaret Martin,margaret.martin.68@example.com,833-786-3318,8760 Hill Rd,Friendswood,TX,77546,2019-05-02
+CUST-069,Joshua Walker,joshua.walker.69@example.com,781-631-2580,879 Oak St,Garden City,NY,11530,2019-12-21
+CUST-070,Amanda Ramirez,amanda.ramirez.70@example.com,992-387-6557,3632 View Rd,Garden City,NY,11530,2017-04-18
+CUST-071,David Jackson,david.jackson.71@example.com,783-905-8423,9114 View Rd,Friendswood,TX,77546,2021-08-22
+CUST-072,John Scott,john.scott.72@example.com,800-457-1840,6760 Maple Ave,Pittsburgh,PA,15205,2023-04-08
+CUST-073,Carol Roberts,carol.roberts.73@example.com,560-533-3580,153 View Rd,Cranberry Twp,PA,16066,2023-05-30
+CUST-074,Ashley Brown,ashley.brown.74@example.com,870-935-8669,2042 Maple Ave,Pittsburgh,PA,15205,2017-10-08
+CUST-075,Patricia Mitchell,patricia.mitchell.75@example.com,428-484-3994,8369 Lake St,Friendswood,TX,77546,2016-09-09
+CUST-076,Charles Williams,charles.williams.76@example.com,678-363-8217,8881 Pine St,Cranberry Twp,PA,16066,2025-01-17
+CUST-077,Jennifer Green,jennifer.green.77@example.com,500-702-6536,5233 Washington St,Garden City,NY,11530,2023-05-09
+CUST-078,Christopher Hernandez,christopher.hernandez.78@example.com,492-106-5561,2110 Pine St,Pittsburgh,PA,15205,2022-02-01
+CUST-079,Melissa Moore,melissa.moore.79@example.com,858-439-7673,6422 Hill Rd,Friendswood,TX,77546,2023-09-21
+CUST-080,Deborah Lee,deborah.lee.80@example.com,726-658-3872,7779 Washington St,San Jose,CA,95118,2025-02-03
+CUST-081,Patricia Wilson,patricia.wilson.81@example.com,458-335-4983,7112 Pine St,Pittsburgh,PA,15205,2019-01-20
+CUST-082,Carol Jones,carol.jones.82@example.com,649-209-2504,4967 Lake St,El Segundo,CA,90245,2025-07-24
+CUST-083,Paul Lewis,paul.lewis.83@example.com,423-900-5127,2852 Washington St,Friendswood,TX,77546,2021-12-28
+CUST-084,Dorothy Clark,dorothy.clark.84@example.com,573-123-4495,9911 Maple Ave,Orlando,FL,32839,2022-06-12
+CUST-085,Emily Martin,emily.martin.85@example.com,983-581-9170,7451 Cedar Rd,Garden City,NY,11530,2017-11-05
+CUST-086,Nancy Jones,nancy.jones.86@example.com,617-346-3347,4732 Oak St,El Segundo,CA,90245,2025-10-04
+CUST-087,Melissa Roberts,melissa.roberts.87@example.com,215-239-3593,5125 View Rd,San Jose,CA,95118,2020-01-22
+CUST-088,Jessica Clark,jessica.clark.88@example.com,643-413-9097,5093 Hill Rd,Cranberry Twp,PA,16066,2017-01-11
+CUST-089,Elizabeth Roberts,elizabeth.roberts.89@example.com,994-867-4865,5205 Cedar Rd,Cranberry Twp,PA,16066,2019-12-24
+CUST-090,Kevin Campbell,kevin.campbell.90@example.com,536-563-4558,2865 Main St,El Segundo,CA,90245,2020-12-17
+CUST-091,Karen Roberts,karen.roberts.91@example.com,279-669-2933,6157 Pine St,Austin,TX,78758,2020-03-10
+CUST-092,Timothy Wilson,timothy.wilson.92@example.com,950-835-6535,9368 Maple Ave,Friendswood,TX,77546,2019-06-08
+CUST-093,Karen Clark,karen.clark.93@example.com,332-632-1909,6089 Washington St,Garden City,NY,11530,2021-11-19
+CUST-094,Timothy Flores,timothy.flores.94@example.com,894-857-5569,1030 Hill Rd,Pittsburgh,PA,15205,2016-05-13
+CUST-095,Matthew Smith,matthew.smith.95@example.com,739-161-4357,8091 Hill Rd,Austin,TX,78758,2022-06-02
+CUST-096,Sarah Davis,sarah.davis.96@example.com,834-978-7882,172 Elm St,Garden City,NY,11530,2018-07-03
+CUST-097,Christopher Mitchell,christopher.mitchell.97@example.com,268-376-6086,2443 Cedar Rd,Orlando,FL,32839,2019-11-02
+CUST-098,Jennifer Gonzalez,jennifer.gonzalez.98@example.com,620-324-3891,6793 Cedar Rd,Friendswood,TX,77546,2016-01-21
+CUST-099,Thomas Rivera,thomas.rivera.99@example.com,942-751-1180,7040 Washington St,El Segundo,CA,90245,2020-06-09
+CUST-100,Ashley Mitchell,ashley.mitchell.100@example.com,746-164-9763,5621 Hill Rd,Garden City,NY,11530,2021-10-14
+CUST-101,Donna Miller,donna.miller.101@example.com,354-150-1347,7116 Maple Ave,Pittsburgh,PA,15205,2024-02-12
+CUST-102,Linda Jackson,linda.jackson.102@example.com,520-668-7733,3314 Washington St,Friendswood,TX,77546,2026-06-01
+CUST-103,Jennifer Nelson,jennifer.nelson.103@example.com,807-111-1336,591 Hill Rd,Cranberry Twp,PA,16066,2017-08-08
+CUST-104,Donald Thomas,donald.thomas.104@example.com,782-555-4304,4912 Oak St,El Segundo,CA,90245,2023-01-13
+CUST-105,Joshua Nguyen,joshua.nguyen.105@example.com,409-603-9845,9683 Pine St,Austin,TX,78758,2018-02-22
+CUST-106,Michael Wright,michael.wright.106@example.com,301-780-5876,6908 Hill Rd,Cranberry Twp,PA,16066,2022-04-16
+CUST-107,Paul Scott,paul.scott.107@example.com,938-660-8381,4399 View Rd,El Segundo,CA,90245,2025-09-15
+CUST-108,Barbara Nelson,barbara.nelson.108@example.com,588-920-8290,4607 Maple Ave,El Segundo,CA,90245,2022-02-16
+CUST-109,Melissa Anderson,melissa.anderson.109@example.com,862-228-2773,285 Main St,Cranberry Twp,PA,16066,2019-12-01
+CUST-110,Anthony Gonzalez,anthony.gonzalez.110@example.com,521-961-9094,1618 Hill Rd,El Segundo,CA,90245,2019-08-29
+CUST-111,Andrew Moore,andrew.moore.111@example.com,332-885-5111,2853 Washington St,Orlando,FL,32839,2016-07-31
+CUST-112,Emily Robinson,emily.robinson.112@example.com,238-731-5668,3577 Hill Rd,El Segundo,CA,90245,2019-02-22
+CUST-113,Michelle Clark,michelle.clark.113@example.com,568-361-3613,1915 Cedar Rd,San Jose,CA,95118,2024-06-27
+CUST-114,Brian Martinez,brian.martinez.114@example.com,649-116-1036,6137 Elm St,Orlando,FL,32839,2017-12-31
+CUST-115,Linda Nelson,linda.nelson.115@example.com,841-179-1851,1115 Oak St,Austin,TX,78758,2016-03-16
+CUST-116,Betty Young,betty.young.116@example.com,925-392-4126,7290 Oak St,San Jose,CA,95118,2017-01-21
+CUST-117,Jennifer Nguyen,jennifer.nguyen.117@example.com,574-269-6414,9992 Oak St,Orlando,FL,32839,2023-06-20
+CUST-118,David Torres,david.torres.118@example.com,543-776-3814,1240 Maple Ave,Orlando,FL,32839,2020-02-06
+CUST-119,Steven Gonzalez,steven.gonzalez.119@example.com,980-547-5783,7501 Washington St,Garden City,NY,11530,2025-05-04
+CUST-120,Richard Baker,richard.baker.120@example.com,521-756-3378,6869 Washington St,Austin,TX,78758,2025-11-15
+CUST-121,Brian Thompson,brian.thompson.121@example.com,395-906-2838,9972 View Rd,Orlando,FL,32839,2026-03-09
+CUST-122,Charles Anderson,charles.anderson.122@example.com,329-154-1425,7844 Main St,Friendswood,TX,77546,2025-04-25
+CUST-123,Joshua Jackson,joshua.jackson.123@example.com,799-193-1218,7380 Main St,Cranberry Twp,PA,16066,2019-07-30
+CUST-124,Nancy Wilson,nancy.wilson.124@example.com,963-956-6578,5792 Maple Ave,San Jose,CA,95118,2017-03-29
+CUST-125,George Thomas,george.thomas.125@example.com,273-308-7915,5690 Pine St,Garden City,NY,11530,2019-12-28
+CUST-126,Deborah Nelson,deborah.nelson.126@example.com,309-524-6791,3874 Lake St,El Segundo,CA,90245,2017-01-20
+CUST-127,George Nguyen,george.nguyen.127@example.com,743-242-3992,5412 Elm St,Cranberry Twp,PA,16066,2016-01-22
+CUST-128,John Moore,john.moore.128@example.com,829-806-8179,1997 Pine St,Pittsburgh,PA,15205,2022-04-13
+CUST-129,Charles Lee,charles.lee.129@example.com,819-337-6822,8421 Washington St,San Jose,CA,95118,2017-05-18
+CUST-130,Barbara Anderson,barbara.anderson.130@example.com,291-118-6621,9181 Lake St,Austin,TX,78758,2018-10-28
+CUST-131,Richard Gonzalez,richard.gonzalez.131@example.com,687-120-3600,9697 View Rd,Pittsburgh,PA,15205,2020-01-25
+CUST-132,Karen Wilson,karen.wilson.132@example.com,756-610-3409,9811 Main St,San Jose,CA,95118,2021-02-02
+CUST-133,Karen Miller,karen.miller.133@example.com,271-243-7624,4790 View Rd,Garden City,NY,11530,2018-06-18
+CUST-134,Joseph Green,joseph.green.134@example.com,924-110-3571,6759 Main St,Pittsburgh,PA,15205,2023-03-09
+CUST-135,Michelle Mitchell,michelle.mitchell.135@example.com,496-582-1238,5265 Lake St,El Segundo,CA,90245,2018-05-31
+CUST-136,Daniel Williams,daniel.williams.136@example.com,305-894-1743,8105 View Rd,San Jose,CA,95118,2020-08-31
+CUST-137,Michael Nguyen,michael.nguyen.137@example.com,889-521-4543,3805 Oak St,San Jose,CA,95118,2021-06-18
+CUST-138,Carol Ramirez,carol.ramirez.138@example.com,462-231-1621,5493 Washington St,Orlando,FL,32839,2020-09-25
+CUST-139,James Jones,james.jones.139@example.com,414-382-3564,4656 Maple Ave,Pittsburgh,PA,15205,2021-04-30
+CUST-140,Steven Miller,steven.miller.140@example.com,827-850-3574,7288 Cedar Rd,Friendswood,TX,77546,2022-02-25
+CUST-141,Jennifer Martinez,jennifer.martinez.141@example.com,649-935-6360,4389 Pine St,Orlando,FL,32839,2019-05-13
+CUST-142,Brian Moore,brian.moore.142@example.com,711-445-3552,6760 Lake St,Friendswood,TX,77546,2025-08-01
+CUST-143,Dorothy Lewis,dorothy.lewis.143@example.com,981-298-4847,2986 Pine St,Orlando,FL,32839,2016-06-18
+CUST-144,Michelle Allen,michelle.allen.144@example.com,969-894-6802,2314 Elm St,San Jose,CA,95118,2022-09-09
+CUST-145,Brian Baker,brian.baker.145@example.com,322-547-9487,1571 Elm St,Orlando,FL,32839,2023-07-27
+CUST-146,William Baker,william.baker.146@example.com,741-420-8453,5220 Cedar Rd,Garden City,NY,11530,2017-07-08
+CUST-147,Nancy Miller,nancy.miller.147@example.com,685-979-8782,9404 View Rd,Garden City,NY,11530,2018-10-15
+CUST-148,Steven Baker,steven.baker.148@example.com,584-849-7293,1918 Main St,El Segundo,CA,90245,2016-05-02
+CUST-149,Steven Allen,steven.allen.149@example.com,979-736-8315,5611 Pine St,Austin,TX,78758,2018-05-03
+CUST-150,William Roberts,william.roberts.150@example.com,610-147-1842,5558 Lake St,Austin,TX,78758,2017-11-11
+CUST-151,Timothy Martinez,timothy.martinez.151@example.com,764-419-9705,1873 Cedar Rd,Friendswood,TX,77546,2025-10-28
+CUST-152,David Flores,david.flores.152@example.com,955-745-3933,5174 Washington St,Cranberry Twp,PA,16066,2023-01-13
+CUST-153,Melissa Mitchell,melissa.mitchell.153@example.com,831-329-1428,8926 Elm St,Garden City,NY,11530,2018-11-13
+CUST-154,Brian Jackson,brian.jackson.154@example.com,432-325-7241,3056 Lake St,Friendswood,TX,77546,2018-07-09
+CUST-155,John Torres,john.torres.155@example.com,552-847-1342,612 Pine St,El Segundo,CA,90245,2023-04-03
+CUST-156,Mary Hernandez,mary.hernandez.156@example.com,911-244-3839,6663 Maple Ave,San Jose,CA,95118,2018-04-18
+CUST-157,Paul Harris,paul.harris.157@example.com,470-380-8026,7632 Washington St,San Jose,CA,95118,2020-10-20
+CUST-158,Kevin Carter,kevin.carter.158@example.com,452-138-8489,4624 View Rd,Orlando,FL,32839,2021-01-06
+CUST-159,Mary Robinson,mary.robinson.159@example.com,336-890-7543,2438 Oak St,Cranberry Twp,PA,16066,2024-09-08
+CUST-160,Amanda Flores,amanda.flores.160@example.com,655-341-9780,1761 Main St,Pittsburgh,PA,15205,2022-03-29
+CUST-161,John Lewis,john.lewis.161@example.com,692-547-6683,8190 Cedar Rd,Cranberry Twp,PA,16066,2020-05-16
+CUST-162,Timothy Nguyen,timothy.nguyen.162@example.com,817-302-4921,4644 Oak St,Orlando,FL,32839,2023-05-27
+CUST-163,Kenneth Miller,kenneth.miller.163@example.com,832-127-7761,5851 Main St,San Jose,CA,95118,2022-09-18
+CUST-164,Kenneth Lewis,kenneth.lewis.164@example.com,276-435-9562,7036 Washington St,Austin,TX,78758,2020-08-08
+CUST-165,William Adams,william.adams.165@example.com,518-400-2215,2143 Washington St,El Segundo,CA,90245,2020-03-02
+CUST-166,John Scott,john.scott.166@example.com,442-896-1286,4395 View Rd,San Jose,CA,95118,2025-08-12
+CUST-167,Betty King,betty.king.167@example.com,284-576-6565,7688 Main St,El Segundo,CA,90245,2024-09-29
+CUST-168,Kimberly Young,kimberly.young.168@example.com,702-629-9780,7394 Oak St,Pittsburgh,PA,15205,2024-09-25
+CUST-169,Susan Green,susan.green.169@example.com,233-101-9144,1308 Main St,Pittsburgh,PA,15205,2025-03-30
+CUST-170,Donald Lewis,donald.lewis.170@example.com,947-492-2273,1468 Hill Rd,El Segundo,CA,90245,2019-09-24
+CUST-171,Andrew Lewis,andrew.lewis.171@example.com,639-766-4864,9133 Cedar Rd,Friendswood,TX,77546,2024-07-11
+CUST-172,Dorothy Thompson,dorothy.thompson.172@example.com,695-590-9848,6724 View Rd,El Segundo,CA,90245,2024-08-31
+CUST-173,Kevin Williams,kevin.williams.173@example.com,208-884-9053,1863 Hill Rd,Cranberry Twp,PA,16066,2021-11-25
+CUST-174,Kevin King,kevin.king.174@example.com,868-246-4899,9886 Maple Ave,Cranberry Twp,PA,16066,2020-09-18
+CUST-175,Thomas Flores,thomas.flores.175@example.com,932-250-5078,2274 Washington St,Garden City,NY,11530,2018-04-26
+CUST-176,Mark Hill,mark.hill.176@example.com,843-581-5988,544 Maple Ave,Garden City,NY,11530,2019-07-30
+CUST-177,Steven Roberts,steven.roberts.177@example.com,567-352-3912,405 Maple Ave,Orlando,FL,32839,2026-01-20
+CUST-178,Karen Robinson,karen.robinson.178@example.com,538-616-8775,1987 Lake St,Austin,TX,78758,2021-06-05
+CUST-179,Michelle Gonzalez,michelle.gonzalez.179@example.com,374-388-5541,9881 Elm St,Austin,TX,78758,2024-12-10
+CUST-180,Emily Harris,emily.harris.180@example.com,589-888-1950,5235 Main St,Friendswood,TX,77546,2016-04-05
+CUST-181,Daniel Rodriguez,daniel.rodriguez.181@example.com,542-332-9049,2511 Washington St,Friendswood,TX,77546,2016-03-11
+CUST-182,Ashley Smith,ashley.smith.182@example.com,589-615-4548,9732 Pine St,Pittsburgh,PA,15205,2017-01-07
+CUST-183,Sandra Brown,sandra.brown.183@example.com,513-681-5461,4451 Maple Ave,Orlando,FL,32839,2020-03-04
+CUST-184,Jennifer Hernandez,jennifer.hernandez.184@example.com,764-700-3485,1987 Lake St,San Jose,CA,95118,2023-07-02
+CUST-185,Karen Ramirez,karen.ramirez.185@example.com,538-493-8646,5172 Hill Rd,San Jose,CA,95118,2017-12-06
+CUST-186,Robert Flores,robert.flores.186@example.com,726-624-6696,3872 Pine St,Pittsburgh,PA,15205,2016-09-17
+CUST-187,Dorothy Martin,dorothy.martin.187@example.com,525-103-7451,9994 Pine St,Cranberry Twp,PA,16066,2016-07-27
+CUST-188,James Martinez,james.martinez.188@example.com,637-746-1213,1968 Elm St,Pittsburgh,PA,15205,2023-07-14
+CUST-189,Mark Rodriguez,mark.rodriguez.189@example.com,306-550-5233,6760 Hill Rd,San Jose,CA,95118,2019-11-20
+CUST-190,Donna Gonzalez,donna.gonzalez.190@example.com,829-812-7129,8636 View Rd,Orlando,FL,32839,2020-05-10
+CUST-191,Melissa Walker,melissa.walker.191@example.com,464-716-3255,8273 Lake St,Austin,TX,78758,2022-05-21
+CUST-192,Jessica Wilson,jessica.wilson.192@example.com,997-878-2742,8148 View Rd,Cranberry Twp,PA,16066,2022-06-02
+CUST-193,Michelle Green,michelle.green.193@example.com,906-798-5059,9569 Main St,Garden City,NY,11530,2023-08-16
+CUST-194,Donna King,donna.king.194@example.com,410-101-8798,6093 Pine St,El Segundo,CA,90245,2017-10-31
+CUST-195,George Young,george.young.195@example.com,670-808-7762,999 Hill Rd,El Segundo,CA,90245,2025-02-25
+CUST-196,Michael Torres,michael.torres.196@example.com,371-529-9139,2354 Oak St,Pittsburgh,PA,15205,2019-08-15
+CUST-197,Sandra Lopez,sandra.lopez.197@example.com,899-667-7381,4231 Maple Ave,Cranberry Twp,PA,16066,2018-03-02
+CUST-198,Joseph Smith,joseph.smith.198@example.com,749-346-5049,8469 Washington St,Cranberry Twp,PA,16066,2018-10-28
+CUST-199,Nancy Nelson,nancy.nelson.199@example.com,590-514-7098,1018 Elm St,Austin,TX,78758,2018-01-01
+CUST-200,Matthew Lewis,matthew.lewis.200@example.com,436-396-5066,1934 Oak St,El Segundo,CA,90245,2024-10-18

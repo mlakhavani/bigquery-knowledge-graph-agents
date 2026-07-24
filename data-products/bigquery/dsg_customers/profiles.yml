@@ -1,0 +1,11 @@
+dsg_customers:
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: meera-demos
+      dataset: dsg_customers
+      location: us-central1
+      threads: 4
+      timeout_seconds: 300
+  target: dev

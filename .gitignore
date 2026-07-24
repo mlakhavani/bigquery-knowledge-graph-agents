@@ -1,0 +1,13 @@
+*.tfstate
+*.tfstate.*
+*.tfvars
+node_modules
+.terraform
+.venv
+venv
+*.log
+target
+.DS_Store
+.gemini
+__pycache__/
+.env

@@ -1,0 +1,76 @@
+version: 2
+
+models:
+  - name: products
+    description: "Product details of Nike and Under Armour shoe inventory at Dick's Sporting Goods."
+    columns:
+      - name: sku
+        description: "Stock Keeping Unit. Unique identifier of each product."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "The commercial name of the shoe."
+      - name: brand
+        description: "The manufacturing brand (e.g. Nike, Under Armour)."
+      - name: gender
+        description: "Target consumer gender (Men, Women, Unisex)."
+      - name: colors
+        description: "List of available colors/colorways for the shoe."
+      - name: sizes
+        description: "List of available US shoe sizes."
+      - name: image_url
+        description: "URL link to the main product image."
+      - name: description
+        description: "Detailed description of the product."
+      - name: marketing_pdf_url
+        description: "URL linking to the marketing PDF description document on GCS."
+      - name: price
+        description: "Retail price of the product in USD."
+
+  - name: stores
+    description: "Locations of Dick's Sporting Goods stores."
+    columns:
+      - name: store_id
+        description: "Unique identifier for each store location."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "The store location name."
+      - name: address
+        description: "Street address of the store."
+      - name: city
+        description: "City where the store is located."
+      - name: state
+        description: "State abbreviation where the store is located."
+      - name: zip_code
+        description: "ZIP code of the store."
+      - name: phone_number
+        description: "Store telephone number."
+
+  - name: inventory
+    description: "Real-time inventory stock levels of shoes by store location, color, and size."
+    columns:
+      - name: sku
+        description: "Stock Keeping Unit. Relates to products.sku."
+        tests:
+          - not_null
+      - name: store_id
+        description: "Dick's Sporting Goods store ID. Relates to stores.store_id."
+        tests:
+          - not_null
+      - name: color
+        description: "Specific colorway of the shoe in inventory."
+        tests:
+          - not_null
+      - name: size
+        description: "Specific US size of the shoe in inventory."
+        tests:
+          - not_null
+      - name: stock_quantity
+        description: "Current stock level quantity in the warehouse for this combination."
+      - name: supply_warehouse
+        description: "Source supply warehouse zone (e.g. WH-EAST-1, WH-MIDWEST-1, WH-WEST-2)."
+      - name: last_updated_at
+        description: "Timestamp when the inventory record was last loaded or updated."

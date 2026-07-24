@@ -1,0 +1,36 @@
+name: 'dsg_products'
+version: '1.0.0'
+config-version: 2
+
+# This setting points to the profile to use
+profile: 'dsg_products'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configure models
+models:
+  dsg_products:
+    # Config indicated by + applies to all files under models/
+    +enabled: true
+    +materialized: table
+    +table_format: iceberg
+    +catalog_name: gcs_iceberg
+
+seeds:
+  dsg_products:
+    +enabled: true
+
+vars:
+  project_id: "meera-demos"
+  region: "us-central1"
+  gcs_bucket_name: "meera-demos-dsg-data"
+  connection_id: "gcs_connection"

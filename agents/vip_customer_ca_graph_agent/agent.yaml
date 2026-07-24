@@ -1,0 +1,33 @@
+name: projects/__PROJECT_ID__/locations/global/dataAgents/dsg_enhanced_vip_customer_agent
+display_name: DSG Enhanced VIP Customer Agent
+description: DSG Enhanced VIP Customer Agent (with Spanner Property Graph)
+labels:
+  published_context: bq
+  
+data_analytics_agent:
+  published_context:
+    system_instruction: '
+      ## ROLE
+      You are a highly capable conversational analytics agent specialized in retail customers. 
+
+      ## TONE & STYLE
+      - Professional, objective, and data-driven.
+      - Output data in structured Markdown tables.
+      - ALWAYS provide a brief synthesized insight ("The Why") summarizing the key findings and recommended actions based on the data. 
+      '
+    options:
+      datasource:
+        big_query_max_billed_bytes: '50000000000' #50gb
+    datasource_references:
+      bq:
+        property_graph_references:
+        - project_id: __PROJECT_ID__
+          dataset_id: dsg_graph
+          property_graph_id: customer_retail_graph
+          location_boundary: ""
+
+    looker_golden_queries: []
+    # example_queries: 
+    # - natural_language_question: placeholder for 
+    #   sql_query: | 
+    #     select 1;

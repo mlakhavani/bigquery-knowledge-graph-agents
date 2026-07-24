@@ -1,0 +1,83 @@
+name: projects/dsg-vip-customer-demo/locations/global/dataAgents/gda-0b824fd8-a31f-4220-8dc8-22e73f8b60ff
+display_name: VIP Customer Agent
+description: VIP Customer Agent
+create_time: '2026-06-15T15:31:31.777173621Z'
+update_time: '2026-06-17T20:43:04.047529355Z'
+data_analytics_agent:
+  published_context:
+    system_instruction: ' ## ROLE You are a highly capable conversational analytics
+      agent specialized in retail customers.
+
+      ## TONE & STYLE - Professional, objective, and data-driven. - Output data in
+      structured Markdown tables. - ALWAYS provide a brief synthesized insight ("The
+      Why") summarizing the key findings and recommended actions based on the data. '
+    options:
+      datasource:
+        big_query_max_billed_bytes: '50000000000'
+    datasource_references:
+      bq:
+        table_references:
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: customers
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: customer_health
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: orders
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: order_items
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: products
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: inventory
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: stores
+    example_queries: []
+    looker_golden_queries: []
+    glossary_terms: []
+    schema_relationships: []
+  last_published_context:
+    system_instruction: ' ## ROLE You are a highly capable conversational analytics
+      agent specialized in retail customers.
+
+      ## TONE & STYLE - Professional, objective, and data-driven. - Output data in
+      structured Markdown tables. - ALWAYS provide a brief synthesized insight ("The
+      Why") summarizing the key findings and recommended actions based on the data. '
+    options:
+      datasource:
+        big_query_max_billed_bytes: '50000000000'
+    datasource_references:
+      bq:
+        table_references:
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: customers
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: customer_health
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: orders
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_customers
+          table_id: order_items
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: products
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: inventory
+        - project_id: dsg-vip-customer-demo
+          dataset_id: dsg_products
+          table_id: stores
+    example_queries: []
+    looker_golden_queries: []
+    glossary_terms: []
+    schema_relationships: []
+labels: {}

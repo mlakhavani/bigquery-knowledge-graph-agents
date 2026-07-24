@@ -1,0 +1,33 @@
+name: 'dsg_customers'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dsg_customers'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dsg_customers:
+    +enabled: true
+    +materialized: table
+    +table_format: iceberg
+    +catalog_name: gcs_iceberg
+
+seeds:
+  dsg_customers:
+    +enabled: true
+
+vars:
+  project_id: "meera-demos"
+  region: "us-central1"
+  gcs_bucket_name: "meera-demos-dsg-data"
+  connection_id: "gcs_connection"
